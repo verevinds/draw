@@ -1,9 +1,15 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="dFwlaZxLFONQ01B5bGyW">
-    <mxGraphModel dx="3157" dy="2701" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4156" dy="3358" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="9nq7n4tGrIzaQITHVLgi-47" parent="1" style="whiteSpace=wrap;html=1;fillStyle=solid;fillColor=none;dashed=1;dashPattern=12 12;" value="" vertex="1">
+          <mxGeometry height="1130" width="1460" x="150" y="-230.00000000000003" as="geometry" />
+        </mxCell>
+        <mxCell id="9nq7n4tGrIzaQITHVLgi-57" edge="1" parent="1" source="9nq7n4tGrIzaQITHVLgi-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="6m3E9VI_nKvSliFkiPM_-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="6m3E9VI_nKvSliFkiPM_-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;" value="" vertex="1">
           <mxGeometry height="639.9284335420689" width="1125" x="215" y="-119.92843354206883" as="geometry" />
         </mxCell>
@@ -50,18 +56,6 @@
             <mxPoint x="530" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6m3E9VI_nKvSliFkiPM_-50" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="140" width="240" x="1339.9999999999998" y="620" as="geometry" />
-        </mxCell>
-        <mxCell id="6m3E9VI_nKvSliFkiPM_-45" parent="6m3E9VI_nKvSliFkiPM_-50" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="140" width="239.99999999999997" as="geometry" />
-        </mxCell>
-        <mxCell id="6m3E9VI_nKvSliFkiPM_-46" parent="6m3E9VI_nKvSliFkiPM_-50" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;fontStyle=1" value="Telegram Service&amp;nbsp;" vertex="1">
-          <mxGeometry height="35" width="239.99999999999997" y="6.67" as="geometry" />
-        </mxCell>
-        <mxCell id="6m3E9VI_nKvSliFkiPM_-47" parent="6m3E9VI_nKvSliFkiPM_-50" style="text;html=1;whiteSpace=wrap;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=16;fontStyle=1" value="Telegram API" vertex="1">
-          <mxGeometry height="70" width="146.88" x="46.559999999999995" y="46.66666666666667" as="geometry" />
-        </mxCell>
         <mxCell id="6m3E9VI_nKvSliFkiPM_-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="323.54" width="1017.22" x="279.9" y="170" as="geometry" />
         </mxCell>
@@ -88,24 +82,6 @@
         </mxCell>
         <mxCell id="9nq7n4tGrIzaQITHVLgi-11" edge="1" parent="1" source="9nq7n4tGrIzaQITHVLgi-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="9nq7n4tGrIzaQITHVLgi-8">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="9nq7n4tGrIzaQITHVLgi-13" connectable="0" parent="1" style="group" value="&gt;" vertex="1">
-          <mxGeometry height="180" width="420" x="853.9699999999999" y="600" as="geometry" />
-        </mxCell>
-        <mxCell id="6m3E9VI_nKvSliFkiPM_-30" parent="9nq7n4tGrIzaQITHVLgi-13" style="text;html=1;whiteSpace=wrap;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="" vertex="1">
-          <mxGeometry height="180" width="420" as="geometry" />
-        </mxCell>
-        <mxCell id="6m3E9VI_nKvSliFkiPM_-69" parent="9nq7n4tGrIzaQITHVLgi-13" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;fontStyle=1" value="Trading Engine (Live)" vertex="1">
-          <mxGeometry height="30" width="410" as="geometry" />
-        </mxCell>
-        <mxCell id="6m3E9VI_nKvSliFkiPM_-72" parent="9nq7n4tGrIzaQITHVLgi-13" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=8 8;" value="" vertex="1">
-          <mxGeometry height="140" width="400" x="10" y="30" as="geometry" />
-        </mxCell>
-        <mxCell id="6m3E9VI_nKvSliFkiPM_-82" parent="9nq7n4tGrIzaQITHVLgi-13" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;spacingLeft=5;fontSize=16;fontStyle=1" value="Trading Runtime State" vertex="1">
-          <mxGeometry height="30" width="186.19" x="10" y="30" as="geometry" />
-        </mxCell>
-        <mxCell id="9nq7n4tGrIzaQITHVLgi-6" parent="9nq7n4tGrIzaQITHVLgi-13" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;ol&gt;&lt;li&gt;Configuration Snapshot:&amp;nbsp;active bots, strategies and trading parameters.&lt;/li&gt;&lt;li&gt;Trading State:&amp;nbsp;active positions, reserved capital, tracked orders, pending order intents, strategy runtime state, exchange rates, etc.&lt;/li&gt;&lt;li&gt;Service Runtime Configuration:&amp;nbsp;currently active service settings required by the trading process.&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;" vertex="1">
-          <mxGeometry height="110" width="400" x="11.279999999999973" y="60" as="geometry" />
         </mxCell>
         <mxCell id="9nq7n4tGrIzaQITHVLgi-14" connectable="0" parent="1" style="group" value="" vertex="1">
           <mxGeometry height="180" width="419.99999999999994" x="286.5" y="600" as="geometry" />
@@ -152,29 +128,23 @@
         <mxCell id="6m3E9VI_nKvSliFkiPM_-40" parent="9nq7n4tGrIzaQITHVLgi-28" style="text;html=1;whiteSpace=wrap;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;rounded=0;fontSize=16;fontStyle=1" value="Finnhub API" vertex="1">
           <mxGeometry height="60" width="153" x="193.5" y="66" as="geometry" />
         </mxCell>
-        <mxCell id="9nq7n4tGrIzaQITHVLgi-31" edge="1" parent="1" source="6m3E9VI_nKvSliFkiPM_-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;libavoidRouting=1;" target="6m3E9VI_nKvSliFkiPM_-45">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="9nq7n4tGrIzaQITHVLgi-31" edge="1" parent="1" source="6m3E9VI_nKvSliFkiPM_-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;libavoidRouting=1;" target="9nq7n4tGrIzaQITHVLgi-52">
+          <mxGeometry relative="1" x="-0.069" as="geometry">
             <Array as="points">
               <mxPoint x="1460" y="200" />
             </Array>
+            <mxPoint x="1460" y="620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9nq7n4tGrIzaQITHVLgi-32" edge="1" parent="1" source="6m3E9VI_nKvSliFkiPM_-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;libavoidRouting=1;" target="6m3E9VI_nKvSliFkiPM_-45">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="9nq7n4tGrIzaQITHVLgi-33" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="9nq7n4tGrIzaQITHVLgi-52">
+          <mxGeometry relative="1" x="-0.0529" as="geometry">
             <Array as="points">
-              <mxPoint x="1307" y="700" />
-              <mxPoint x="1307" y="600" />
-              <mxPoint x="1460" y="600" />
+              <mxPoint x="780" y="680" />
+              <mxPoint x="780" y="560" />
+              <mxPoint x="1460" y="560" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="9nq7n4tGrIzaQITHVLgi-33" edge="1" parent="1" source="6m3E9VI_nKvSliFkiPM_-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;libavoidRouting=1;" target="6m3E9VI_nKvSliFkiPM_-45">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="780" y="690" />
-              <mxPoint x="780" y="584" />
-              <mxPoint x="1460" y="584" />
-            </Array>
+            <mxPoint x="706.5000000000005" y="680" as="sourcePoint" />
+            <mxPoint x="1460" y="650" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9nq7n4tGrIzaQITHVLgi-38" edge="1" parent="1" source="6m3E9VI_nKvSliFkiPM_-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="6m3E9VI_nKvSliFkiPM_-35">
@@ -238,11 +208,44 @@
         <mxCell id="9nq7n4tGrIzaQITHVLgi-43" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Engine Management " vertex="1">
           <mxGeometry height="43.12349922312727" width="1017.22" x="279.9" y="-60" as="geometry" />
         </mxCell>
-        <mxCell id="9nq7n4tGrIzaQITHVLgi-47" parent="1" style="whiteSpace=wrap;html=1;fillStyle=solid;fillColor=none;dashed=1;dashPattern=12 12;" value="" vertex="1">
-          <mxGeometry height="1130" width="1460" x="150" y="-220" as="geometry" />
-        </mxCell>
         <mxCell id="9nq7n4tGrIzaQITHVLgi-48" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=22;fontStyle=0" value="Local Enviroment" vertex="1">
-          <mxGeometry height="30" width="200" x="150" y="-220" as="geometry" />
+          <mxGeometry height="30" width="200" x="150" y="-230" as="geometry" />
+        </mxCell>
+        <mxCell id="9nq7n4tGrIzaQITHVLgi-49" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Account State" vertex="1">
+          <mxGeometry height="30" width="225.25" x="-20" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="6m3E9VI_nKvSliFkiPM_-47" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=16;fontStyle=1" value="Telegram API" vertex="1">
+          <mxGeometry height="70" width="146.88" x="1729.9999999999998" y="654.9966666666667" as="geometry" />
+        </mxCell>
+        <mxCell id="9nq7n4tGrIzaQITHVLgi-56" edge="1" parent="1" source="6m3E9VI_nKvSliFkiPM_-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="9nq7n4tGrIzaQITHVLgi-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6m3E9VI_nKvSliFkiPM_-72" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=8 8;" value="" vertex="1">
+          <mxGeometry height="140" width="400" x="863.9699999999999" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="9nq7n4tGrIzaQITHVLgi-58" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="60" width="240" x="1340" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="9nq7n4tGrIzaQITHVLgi-52" parent="9nq7n4tGrIzaQITHVLgi-58" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="60" width="240" as="geometry" />
+        </mxCell>
+        <mxCell id="6m3E9VI_nKvSliFkiPM_-46" parent="9nq7n4tGrIzaQITHVLgi-58" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;fontStyle=1" value="Telegram Service&amp;nbsp;" vertex="1">
+          <mxGeometry height="35" width="210" x="15" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="9nq7n4tGrIzaQITHVLgi-59" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="180" width="419.9999999999999" x="853.9699999999999" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="6m3E9VI_nKvSliFkiPM_-30" parent="9nq7n4tGrIzaQITHVLgi-59" style="text;html=1;whiteSpace=wrap;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="" vertex="1">
+          <mxGeometry height="180" width="420" as="geometry" />
+        </mxCell>
+        <mxCell id="6m3E9VI_nKvSliFkiPM_-69" parent="9nq7n4tGrIzaQITHVLgi-59" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;fontStyle=1" value="Trading Engine (Live)" vertex="1">
+          <mxGeometry height="30" width="410" as="geometry" />
+        </mxCell>
+        <mxCell id="6m3E9VI_nKvSliFkiPM_-82" parent="9nq7n4tGrIzaQITHVLgi-59" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;spacingLeft=5;fontSize=16;fontStyle=1" value="Trading Runtime State" vertex="1">
+          <mxGeometry height="30" width="186.19" x="10" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9nq7n4tGrIzaQITHVLgi-6" parent="9nq7n4tGrIzaQITHVLgi-59" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;ol&gt;&lt;li&gt;Configuration Snapshot:&amp;nbsp;active bots, strategies and trading parameters.&lt;/li&gt;&lt;li&gt;Trading State:&amp;nbsp;active positions, reserved capital, tracked orders, pending order intents, strategy runtime state, exchange rates, etc.&lt;/li&gt;&lt;li&gt;Service Runtime Configuration:&amp;nbsp;currently active service settings required by the trading process.&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;" vertex="1">
+          <mxGeometry height="110" width="400" x="11.279999999999973" y="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
