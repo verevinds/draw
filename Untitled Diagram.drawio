@@ -128,16 +128,25 @@
           <mxGeometry height="70" width="146.88" x="46.559999999999995" y="46.66666666666667" as="geometry" />
         </mxCell>
         <mxCell id="6m3E9VI_nKvSliFkiPM_-9" connectable="0" parent="1" style="group;fontSize=8;" value="" vertex="1">
-          <mxGeometry height="242.28" width="390" x="851" y="267.28" as="geometry" />
+          <mxGeometry height="242.28" width="551" x="781" y="267.28" as="geometry" />
         </mxCell>
         <mxCell id="6m3E9VI_nKvSliFkiPM_-7" parent="6m3E9VI_nKvSliFkiPM_-9" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="309.56" width="481" x="-91" y="-67.28" as="geometry" />
+          <mxGeometry height="309.56" width="679.5666666666666" x="-128.56666666666666" y="-67.28" as="geometry" />
+        </mxCell>
+        <mxCell id="9nq7n4tGrIzaQITHVLgi-8" parent="6m3E9VI_nKvSliFkiPM_-9" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="" vertex="1">
+          <mxGeometry height="180" width="651.31" x="-114.44" y="51" as="geometry" />
         </mxCell>
         <mxCell id="6m3E9VI_nKvSliFkiPM_-76" parent="6m3E9VI_nKvSliFkiPM_-9" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=8 8;" value="" vertex="1">
-          <mxGeometry height="180" width="440" x="-70" y="42.72" as="geometry" />
+          <mxGeometry height="135.22" width="621.64" x="-98.9" y="87.5" as="geometry" />
         </mxCell>
         <mxCell id="9nq7n4tGrIzaQITHVLgi-3" parent="6m3E9VI_nKvSliFkiPM_-9" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;ol&gt;&lt;li&gt;Configuration:&amp;nbsp;bots, strategies, trading parameters, broker profiles, ticker mappings, etc.&lt;br&gt;&lt;/li&gt;&lt;li&gt;Recovery State:&amp;nbsp;positions, reserved capital, tracked orders, pending order intents, recovery/blocker state, exchange-rate cache, etc.&lt;br&gt;&lt;/li&gt;&lt;li&gt;History:&amp;nbsp;executions, trades, fees, realized results, capital movements, audit records, etc.&lt;br&gt;&lt;/li&gt;&lt;li&gt;Analytics:&amp;nbsp;performance metrics, P&amp;amp;L, drawdown, win rate, strategy statistics, aggregated reports, etc.&lt;br&gt;&lt;/li&gt;&lt;li&gt;Service Settings:&amp;nbsp;notification preferences, alert rules, schedules, integration settings, sync settings, feature toggles, etc.&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;" vertex="1">
-          <mxGeometry height="157.72" width="440" x="-70" y="65" as="geometry" />
+          <mxGeometry height="110" width="621.64" x="-98.9" y="112.72" as="geometry" />
+        </mxCell>
+        <mxCell id="9nq7n4tGrIzaQITHVLgi-9" parent="6m3E9VI_nKvSliFkiPM_-9" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;fontStyle=1" value="SQLite" vertex="1">
+          <mxGeometry height="30" width="84.76923076923076" x="153.99743589743588" y="52.72000000000003" as="geometry" />
+        </mxCell>
+        <mxCell id="6m3E9VI_nKvSliFkiPM_-75" parent="6m3E9VI_nKvSliFkiPM_-9" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;spacingLeft=5;fontStyle=1;fontSize=16;" value="Persistent Data (all-time)" vertex="1">
+          <mxGeometry height="30" width="221" x="-98.89999999999998" y="87.5" as="geometry" />
         </mxCell>
         <mxCell id="6m3E9VI_nKvSliFkiPM_-61" connectable="0" parent="1" style="group" value="" vertex="1">
           <mxGeometry height="309.56" width="260" x="215" y="200" as="geometry" />
@@ -167,7 +176,7 @@
           <mxGeometry height="60" width="1215" x="140" y="110" as="geometry" />
         </mxCell>
         <mxCell id="6m3E9VI_nKvSliFkiPM_-66" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="Local API" vertex="1">
-          <mxGeometry height="30" width="120" x="553" y="310" as="geometry" />
+          <mxGeometry height="30" width="120" x="499" y="310" as="geometry" />
         </mxCell>
         <mxCell id="6m3E9VI_nKvSliFkiPM_-69" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;fontStyle=1" value="Trading Engine (Live)" vertex="1">
           <mxGeometry height="30" width="410" x="440" y="800" as="geometry" />
@@ -181,10 +190,7 @@
         <mxCell id="6m3E9VI_nKvSliFkiPM_-80" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=8 8;" value="" vertex="1">
           <mxGeometry height="140" width="400" x="-80" y="830" as="geometry" />
         </mxCell>
-        <mxCell id="6m3E9VI_nKvSliFkiPM_-81" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontStyle=1;spacingLeft=5;" value="Operational State (current day)" vertex="1">
-          <mxGeometry height="30" width="186.19" x="-80" y="830" as="geometry" />
-        </mxCell>
-        <mxCell id="6m3E9VI_nKvSliFkiPM_-82" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontStyle=1;spacingLeft=5;" value="Operational State (current day)" vertex="1">
+        <mxCell id="6m3E9VI_nKvSliFkiPM_-82" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;spacingLeft=5;fontSize=16;fontStyle=1" value="Trading Runtime State" vertex="1">
           <mxGeometry height="30" width="186.19" x="450" y="830" as="geometry" />
         </mxCell>
         <mxCell id="9nq7n4tGrIzaQITHVLgi-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;ol&gt;&lt;li&gt;Configuration Snapshot:&amp;nbsp;active bots, strategies and trading parameters.&lt;/li&gt;&lt;li&gt;Trading State:&amp;nbsp;active positions, reserved capital, tracked orders, pending order intents, strategy runtime state, exchange rates, etc.&lt;/li&gt;&lt;li&gt;Service Runtime Configuration:&amp;nbsp;currently active service settings required by the trading process.&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;" vertex="1">
@@ -193,19 +199,26 @@
         <mxCell id="9nq7n4tGrIzaQITHVLgi-2" edge="1" parent="1" source="6m3E9VI_nKvSliFkiPM_-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;libavoidRouting=1;" target="6m3E9VI_nKvSliFkiPM_-46">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="345" y="1025" />
-              <mxPoint x="800" y="1025" />
+              <mxPoint x="345" y="647" />
+              <mxPoint x="415" y="647" />
+              <mxPoint x="415" y="1088" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="6m3E9VI_nKvSliFkiPM_-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;fontStyle=1" value="Storage" vertex="1">
+        <mxCell id="6m3E9VI_nKvSliFkiPM_-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;fontStyle=1" value="Persistence Layer" vertex="1">
           <mxGeometry height="30" width="481" x="759.5" y="201" as="geometry" />
-        </mxCell>
-        <mxCell id="6m3E9VI_nKvSliFkiPM_-75" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;spacingLeft=5;fontStyle=1;fontSize=16;" value="Persistent Data (all-time)" vertex="1">
-          <mxGeometry height="30" width="221" x="781" y="310" as="geometry" />
         </mxCell>
         <mxCell id="9nq7n4tGrIzaQITHVLgi-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;ol&gt;&lt;li&gt;Configuration Snapshot:&amp;nbsp;active bots, strategies and trading parameters.&lt;/li&gt;&lt;li&gt;Trading State:&amp;nbsp;active positions, reserved capital, tracked orders, pending order intents, strategy runtime state, exchange rates, etc.&lt;/li&gt;&lt;li&gt;Service Runtime Configuration:&amp;nbsp;currently active service settings required by the trading process.&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;" vertex="1">
           <mxGeometry height="110" width="400" x="451.28" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="9nq7n4tGrIzaQITHVLgi-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;spacingLeft=5;fontSize=16;fontStyle=1" value="Trading Runtime State" vertex="1">
+          <mxGeometry height="30" width="186.19" x="-80" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="9nq7n4tGrIzaQITHVLgi-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;rounded=0;fontSize=16;fontStyle=1" value=" Storage Interface" vertex="1">
+          <mxGeometry height="40" width="651.31" x="667.26" y="249.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="9nq7n4tGrIzaQITHVLgi-11" edge="1" parent="1" source="9nq7n4tGrIzaQITHVLgi-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="9nq7n4tGrIzaQITHVLgi-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
